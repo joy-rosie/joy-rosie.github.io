@@ -361,7 +361,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: excel 2s ease;
 }
 .python{
-  	width: 30%;
+  	width: 80%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -375,7 +375,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: vba 2s ease;
   	-webkit-animation: vba 2s ease;
 }
-
+.q {
+  	width: 30%;
+  	-moz-animation: q 2s ease;
+  	-webkit-animation: q 2s ease;
+}
+.sql {
+  	width: 50%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
+}
 @-moz-keyframes bloomberg {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -406,7 +415,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes r {
   0%   { width: 0px;  }
@@ -416,7 +425,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 85%;  }
 }
-
+@-moz-keyframes q {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
 @-webkit-keyframes bloomberg {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -447,7 +463,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes r {
   0%   { width: 0px;  }
@@ -456,6 +472,14 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes vba {
   0%   { width: 0px;  }
   100% { width: 85%;  }
+}
+@-webkit-keyframes q {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
 }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
